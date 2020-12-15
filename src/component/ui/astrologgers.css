@@ -1,0 +1,28 @@
+
+/* .slick-prev {
+    left: -1% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: -1% !important;
+    z-index: 1;
+  } */
+
+  .slick-prev{
+    font-size: 15px !important;
+    left: -2.5% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    font-size: 15px !important;
+    right: -2% !important;
+    z-index: 1;
+  }
+  
+   .slick-prev:before, .slick-next:before  {
+    content: '' !important;
+  }
+.slick-track{
+  margin-bottom: 10px;
+
+}

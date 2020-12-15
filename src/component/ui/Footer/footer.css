@@ -1,0 +1,125 @@
+.footer-top-area {
+   background-color: #ebebeb;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+    color: "#310701";
+/* padding: 70px 0 0 0; */
+    padding-top: 30px;
+
+}
+.row{
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.single-widget {
+    margin-bottom: 30px;
+    color:black
+}
+.single-widget .social-area {
+    margin-top: 20px;
+    text-align: left;
+}
+.single-widget .social-area ul {
+    line-height: 1;
+}
+.single-widget .social-area ul li {
+    display: inline-block;
+}
+
+.single-widget .social-area ul li a {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    /* background-color: #31abfc; */
+    border-radius: 4px;
+    text-align: cenleftter;
+    font-size: 35px;
+}
+.single-widget ul li {
+    color: #310701;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.single-widget.contact ul li {
+    position: relative;
+    padding-left: 30px;
+}
+.single-widget.contact ul li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #310701;
+    font-size: 15px;
+}
+.single-widget.contact ul li span {
+    display: inline-block;
+    font-weight: 600;
+}
+.single-widget ul li a {
+    color: #310701;
+    transition: all 0.5s;
+}
+.single-widget h3 {
+    color: #310701;
+    font-size: 22px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #48475a;
+}
+.single-widget h3::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background-color: #000000;
+}
+.newsletter-p {
+    margin-bottom: 20px;
+    padding-left: 0;
+    color:#310701;
+}
+.form-control {
+    height: 50px;
+    color: #262566;
+    border: 1px solid #e8e8e8;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.single-widget .default-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.single-widget p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    color:#310701;
+}
+.fa{
+    font-size: x-large;
+    color:#310701
+}
+.btn-brown{
+    background-color: red;
+    color: white;
+}

@@ -1,24 +1,38 @@
 import logo from './logo.svg';
-import './App.css';
+import theme from './component/ui/Theme';
+import { ThemeProvider } from '@material-ui/core';
+import Header from './component/ui/Header';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import BannerCarousel from './component/ui/BannerCarousel';
+import ZodiacSign from './component/ui/ZodiacSign';
+import Astrologgers from './component/ui/Astrologgers';
+import AstrologgerTalks from './component/ui/AstrologgerTalks';
+import Services from './component/ui/Services';
+import ServicesItems from './component/ui/ServicesSlick';
+import BorderSubtractive from './component/ui/Dashes';
+import DashesMain from './component/ui/DashesMain';
+import Testimonial from './component/ui/Testimonial';
+import Footer from './component/ui/Footer/footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Router>
+      <Header/>
+      <BannerCarousel/>
+      <ZodiacSign/>
+      <AstrologgerTalks/>
+      <Services/>
+      <DashesMain/>
+      <Testimonial/>
+      <Footer/>
+      <Switch>
+        <Route/>
+      </Switch>
+      </Router>
+     
+
+    </ThemeProvider>
   );
 }
 
